@@ -1,0 +1,72 @@
+body{
+  box-sizing: border-box;
+}
+  .jumbotron {
+    background-image: url('../images/stock_banner_img.jpg');
+    background-size: cover;
+  }
+    h1.display-4 {
+      color: white;
+    }
+    p.lead {
+      color: white;
+    }
+  .card {
+    margin-bottom: 1em;
+  }
+    li {
+      font-size: 13px;
+      color: rgb(46, 46, 46);
+      display: inline;
+    }
+    .btn{
+      margin-left: 5px; background-color: rgb(18, 25, 90); border-color: rgb(18, 25, 90); color: white;
+    }
+    .btn:hover {
+      color: white;
+      text-decoration: none;
+    }
+    
+    .btn:focus, .btn.focus {
+      outline: 0;
+      box-shadow: 0 0 0 0.1rem rgba(0, 123, 255, 0.25);
+    }
+.row1-col1-header{grid-area: row1-col1-header; margin-bottom: 0px; padding: 0 0 10px 10px ;color: rgb(18, 25, 90);}
+.row2-col1-sm1{grid-area: row2-col1-sm1;}
+.row3-col1-sm2{grid-area: row3-col1-sm2;}
+.row4-col1-sm3{grid-area: row4-col1-sm3;}
+.row5-col1-sm4{grid-area: row5-col1-sm4;}
+.row6-col1-sm5{grid-area: row6-col1-sm5;}
+.row7-col1-sm6{grid-area: row7-col1-sm6;}
+.row8-col1-sm7{grid-area: row8-col1-sm7;}
+.row9-col1-sm8{grid-area: row9-col1-sm8;}
+.row10-col1-sm9{grid-area: row10-col1-sm9;}
+.row11-col1-sm10{grid-area: row11-col1-sm10;}
+.row1-col2-mp{grid-area: row1-col2-mp; position: relative;}
+.mp-fixed{position: fixed; margin-right: 45px;}
+.mp-header{ margin: 0 0 0 15px; padding: 0 0 10px 10px; color: rgb(18, 25, 90);}
+.mp-body{ margin: 0 0 0 15px; position: relative;}
+table {table-layout: fixed; word-wrap: break-word;}
+td{word-wrap: break-word;min-width: 160px;max-width: 160px;}
+
+#container {
+  margin-left: 30px;
+  margin-right: 30px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+    "row1-col1-header row1-col2-mp"
+    "row2-col1-sm1 row1-col2-mp"
+    "row3-col1-sm2 row1-col2-mp"
+    "row4-col1-sm3 row1-col2-mp"
+    "row5-col1-sm4 row1-col2-mp"
+    "row6-col1-sm5 row1-col2-mp"
+    "row7-col1-sm6 row1-col2-mp"
+    "row8-col1-sm7 row1-col2-mp"
+    "row9-col1-sm8 row1-col2-mp"
+    "row10-col1-sm9 row1-col2-mp"
+    "row11-col1-sm10 row1-col2-mp"
+  ;
+}
+/*# sourceMappingURL=styles.css.map */
